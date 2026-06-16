@@ -18,7 +18,9 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-
+        # Добавляем настройку кэширования Gradle для стабильности
+        cache: 'gradle'
+        
     # Ставим именно ту версию, которую он требует по зарез
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
