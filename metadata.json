@@ -1,0 +1,6 @@
+{
+  "name": "SmartStore",
+  "description": "Premium offline-store SmartStore featuring the immersive Material 3 Expressive design, tactile micro-animations, and integrated mockup of the Monet Pay gateway reconstruction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
